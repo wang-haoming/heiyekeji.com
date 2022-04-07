@@ -28,7 +28,8 @@ html, body {
 }
 
 .copyright {
-    bottom: 40px;
+    bottom: 30px;
+    font-size: 14px;
     position: absolute;
     text-align: center;
     width: 100%;
@@ -40,12 +41,6 @@ html, body {
 
 @media screen and (max-width: 768px) {
     .app {
-        background: url("../img/background-mobile.jpg") no-repeat center / 100% 100%;
+        background: url("../img/background-mobile.png") no-repeat center / 100% 100%;
     }
 }
-
-@media screen and (min-width: 768px) {}
-
-@media screen and (min-width: 992px) {}
-
-@media screen and (min-width: 1200px) {}
